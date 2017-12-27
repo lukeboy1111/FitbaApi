@@ -4,3 +4,5 @@
 target/
 .swagger-codegen/
 .springBeans
+run.bat
+src/main/resources/azure/web.config

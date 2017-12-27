@@ -13,7 +13,7 @@ import com.lukeyboy1111.fitba.apis.model.FitbaPlayer;
  */
 public interface TeamService
 {
-    public List<FitbaTeam> fetchAllComponents();
+    public List<FitbaTeam> fetchAllFitbaTeams();
 
     public Optional<FitbaTeam> fetchTeam(String id);
 

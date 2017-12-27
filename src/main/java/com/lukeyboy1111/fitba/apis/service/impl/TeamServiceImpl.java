@@ -27,7 +27,7 @@ public class TeamServiceImpl implements TeamService
     }
 
     @Override
-    public List<FitbaTeam> fetchAllComponents()
+    public List<FitbaTeam> fetchAllFitbaTeams()
     {
         return teamRepository.findAll();
     }
